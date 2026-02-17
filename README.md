@@ -7,13 +7,13 @@ This project builds an end-to-end machine learning system to assist recruitment 
 
 The system demonstrates the integration of natural language processing with traditional machine learning for recruitment analytics.
 
-> **Problem Statement**
+> **PROBLEM STATEMENT**
 
 Recruiters manually screen large volumes of resumes and evaluate candidate potential for placement. This project automates:
 - resume domain identification
 - placement likelihood prediction
 
-> **Datasets**
+> **DATASETS**
 1. **Resume Dataset**:
     - Resume text
     - Job category labels
@@ -28,11 +28,11 @@ Recruiters manually screen large volumes of resumes and evaluate candidate poten
     - Hostel status
     - Placement status (target)
 
-> **System Architecture**
+> **SYSTEM ARCHITECTURE**
 
 Resume Text → Cleaning → TF-IDF Vectorization → KNN Classifier → Domain Prediction → Structured Data → Feature Selection → Multiple ML Models → Placement Prediction
 
-> **Machine Learning Techniques Used**
+> **ML TECHNIQUES USED**
 1. **NLP Pipeline**:
     - Text preprocessing
     - TF-IDF feature extraction
@@ -52,7 +52,7 @@ Resume Text → Cleaning → TF-IDF Vectorization → KNN Classifier → Domain 
     - confusion matrix
     - cross-validation
 
-> **Features**
+> **FEATURES**
 - Resume category classification
 - Candidate placement prediction
 - Model comparison framework
@@ -60,11 +60,11 @@ Resume Text → Cleaning → TF-IDF Vectorization → KNN Classifier → Domain 
 - Model persistence
 - Interactive prediction interface
 
-> **Technologies Used**
+> **TECHNOLOGIES USED**
 
 Python, Scikit-learn, NLP (TF-IDF, spaCy), Pandas, NumPy, Matplotlib, Seaborn
 
-> **Future Improvements**
+> **FUTURE IMPROVEMENTS**
 - Deep learning NLP (BERT)
 - Resume parsing automation
 - Real recruiter dashboard
