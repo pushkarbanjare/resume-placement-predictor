@@ -1,4 +1,4 @@
-#Resume Screening and Placement Prediction Model
+# Resume Screening and Placement Prediction Model
 
 This project builds an end-to-end machine learning system to assist recruitment and campus placement analysis. It performs two core tasks:
 1. **Resume Domain Classification (NLP)**: Automatically categorizes resumes into job domains using TF-IDF text vectorization and supervised learning.
